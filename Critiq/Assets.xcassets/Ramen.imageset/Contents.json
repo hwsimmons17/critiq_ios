@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "DrawKit Vector Illustration Food & Culture (5) 1.svg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "DrawKit Vector Illustration Food & Culture (5).svg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "DrawKit Vector Illustration Food & Culture (5) 2.svg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

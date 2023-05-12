@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C0277802A02FB2E008D173B /* CritiqApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C02777F2A02FB2E008D173B /* CritiqApp.swift */; };
+		8C0277822A02FB2E008D173B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277812A02FB2E008D173B /* ContentView.swift */; };
+		8C0277842A02FB2F008D173B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0277832A02FB2F008D173B /* Assets.xcassets */; };
+		8C0277872A02FB2F008D173B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0277862A02FB2F008D173B /* Preview Assets.xcassets */; };
+		8C0277912A02FB2F008D173B /* CritiqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277902A02FB2F008D173B /* CritiqTests.swift */; };
+		8C02779B2A02FB2F008D173B /* CritiqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C02779A2A02FB2F008D173B /* CritiqUITests.swift */; };
+		8C02779D2A02FB2F008D173B /* CritiqUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C02779C2A02FB2F008D173B /* CritiqUITestsLaunchTests.swift */; };
+		8C0277B72A03FB30008D173B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277B62A03FB30008D173B /* WelcomeView.swift */; };
+		8C0277B92A0402C5008D173B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277B82A0402C5008D173B /* LoginView.swift */; };
+		8C0277C22A0406CA008D173B /* Ubuntu.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C0277C12A0406CA008D173B /* Ubuntu.ttf */; };
+		8C0277C42A0406E1008D173B /* Poppins.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C0277C32A0406E1008D173B /* Poppins.ttf */; };
+		8C0277C72A040814008D173B /* Primatives.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277C62A040814008D173B /* Primatives.swift */; };
+		8C0277CC2A046A87008D173B /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277CB2A046A87008D173B /* Server.swift */; };
+		8C0277CE2A054D21008D173B /* PhoneVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277CD2A054D21008D173B /* PhoneVerificationView.swift */; };
+		8C0277D12A0ADE52008D173B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277D02A0ADE52008D173B /* MapView.swift */; };
+		8C0277D32A0AE5EF008D173B /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277D22A0AE5EF008D173B /* Map.swift */; };
+		8C0277D52A0BE162008D173B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277D42A0BE162008D173B /* SearchView.swift */; };
+		8C0277D72A0C4043008D173B /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277D62A0C4043008D173B /* TestView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C02778D2A02FB2F008D173B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C0277742A02FB2E008D173B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C02777B2A02FB2E008D173B;
+			remoteInfo = Critiq;
+		};
+		8C0277972A02FB2F008D173B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C0277742A02FB2E008D173B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C02777B2A02FB2E008D173B;
+			remoteInfo = Critiq;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C02777C2A02FB2E008D173B /* Critiq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Critiq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C02777F2A02FB2E008D173B /* CritiqApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritiqApp.swift; sourceTree = "<group>"; };
+		8C0277812A02FB2E008D173B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C0277832A02FB2F008D173B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C0277862A02FB2F008D173B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C02778C2A02FB2F008D173B /* CritiqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CritiqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0277902A02FB2F008D173B /* CritiqTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritiqTests.swift; sourceTree = "<group>"; };
+		8C0277962A02FB2F008D173B /* CritiqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CritiqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C02779A2A02FB2F008D173B /* CritiqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritiqUITests.swift; sourceTree = "<group>"; };
+		8C02779C2A02FB2F008D173B /* CritiqUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CritiqUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C0277B62A03FB30008D173B /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeView.swift; path = Critiq/WelcomeView.swift; sourceTree = SOURCE_ROOT; };
+		8C0277B82A0402C5008D173B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = Critiq/LoginView.swift; sourceTree = SOURCE_ROOT; };
+		8C0277BC2A040498008D173B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8C0277C12A0406CA008D173B /* Ubuntu.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ubuntu.ttf; sourceTree = "<group>"; };
+		8C0277C32A0406E1008D173B /* Poppins.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poppins.ttf; sourceTree = "<group>"; };
+		8C0277C62A040814008D173B /* Primatives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primatives.swift; sourceTree = "<group>"; };
+		8C0277CB2A046A87008D173B /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		8C0277CD2A054D21008D173B /* PhoneVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhoneVerificationView.swift; path = Critiq/PhoneVerificationView.swift; sourceTree = SOURCE_ROOT; };
+		8C0277D02A0ADE52008D173B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8C0277D22A0AE5EF008D173B /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		8C0277D42A0BE162008D173B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		8C0277D62A0C4043008D173B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C0277792A02FB2E008D173B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0277892A02FB2F008D173B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0277932A02FB2F008D173B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C0277732A02FB2E008D173B = {
+			isa = PBXGroup;
+			children = (
+				8C02777E2A02FB2E008D173B /* Critiq */,
+				8C02778F2A02FB2F008D173B /* CritiqTests */,
+				8C0277992A02FB2F008D173B /* CritiqUITests */,
+				8C02777D2A02FB2E008D173B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C02777D2A02FB2E008D173B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C02777C2A02FB2E008D173B /* Critiq.app */,
+				8C02778C2A02FB2F008D173B /* CritiqTests.xctest */,
+				8C0277962A02FB2F008D173B /* CritiqUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C02777E2A02FB2E008D173B /* Critiq */ = {
+			isa = PBXGroup;
+			children = (
+				8C0277CF2A0ADE33008D173B /* App */,
+				8C0277C82A046A39008D173B /* Fonts */,
+				8C0277C52A0407DC008D173B /* Primatives */,
+				8C0277BC2A040498008D173B /* Info.plist */,
+				8C0277B12A03F9D2008D173B /* Login */,
+				8C02777F2A02FB2E008D173B /* CritiqApp.swift */,
+				8C0277812A02FB2E008D173B /* ContentView.swift */,
+				8C0277832A02FB2F008D173B /* Assets.xcassets */,
+				8C0277852A02FB2F008D173B /* Preview Content */,
+				8C0277CB2A046A87008D173B /* Server.swift */,
+				8C0277D22A0AE5EF008D173B /* Map.swift */,
+			);
+			path = Critiq;
+			sourceTree = "<group>";
+		};
+		8C0277852A02FB2F008D173B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C0277862A02FB2F008D173B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C02778F2A02FB2F008D173B /* CritiqTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C0277902A02FB2F008D173B /* CritiqTests.swift */,
+			);
+			path = CritiqTests;
+			sourceTree = "<group>";
+		};
+		8C0277992A02FB2F008D173B /* CritiqUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C02779A2A02FB2F008D173B /* CritiqUITests.swift */,
+				8C02779C2A02FB2F008D173B /* CritiqUITestsLaunchTests.swift */,
+			);
+			path = CritiqUITests;
+			sourceTree = "<group>";
+		};
+		8C0277B12A03F9D2008D173B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8C0277B62A03FB30008D173B /* WelcomeView.swift */,
+				8C0277B82A0402C5008D173B /* LoginView.swift */,
+				8C0277CD2A054D21008D173B /* PhoneVerificationView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8C0277C52A0407DC008D173B /* Primatives */ = {
+			isa = PBXGroup;
+			children = (
+				8C0277C62A040814008D173B /* Primatives.swift */,
+			);
+			path = Primatives;
+			sourceTree = "<group>";
+		};
+		8C0277C82A046A39008D173B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8C0277C32A0406E1008D173B /* Poppins.ttf */,
+				8C0277C12A0406CA008D173B /* Ubuntu.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8C0277CF2A0ADE33008D173B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8C0277D02A0ADE52008D173B /* MapView.swift */,
+				8C0277D42A0BE162008D173B /* SearchView.swift */,
+				8C0277D62A0C4043008D173B /* TestView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C02777B2A02FB2E008D173B /* Critiq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0277A02A02FB2F008D173B /* Build configuration list for PBXNativeTarget "Critiq" */;
+			buildPhases = (
+				8C0277782A02FB2E008D173B /* Sources */,
+				8C0277792A02FB2E008D173B /* Frameworks */,
+				8C02777A2A02FB2E008D173B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Critiq;
+			productName = Critiq;
+			productReference = 8C02777C2A02FB2E008D173B /* Critiq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C02778B2A02FB2F008D173B /* CritiqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0277A32A02FB2F008D173B /* Build configuration list for PBXNativeTarget "CritiqTests" */;
+			buildPhases = (
+				8C0277882A02FB2F008D173B /* Sources */,
+				8C0277892A02FB2F008D173B /* Frameworks */,
+				8C02778A2A02FB2F008D173B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C02778E2A02FB2F008D173B /* PBXTargetDependency */,
+			);
+			name = CritiqTests;
+			productName = CritiqTests;
+			productReference = 8C02778C2A02FB2F008D173B /* CritiqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C0277952A02FB2F008D173B /* CritiqUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C0277A62A02FB2F008D173B /* Build configuration list for PBXNativeTarget "CritiqUITests" */;
+			buildPhases = (
+				8C0277922A02FB2F008D173B /* Sources */,
+				8C0277932A02FB2F008D173B /* Frameworks */,
+				8C0277942A02FB2F008D173B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C0277982A02FB2F008D173B /* PBXTargetDependency */,
+			);
+			name = CritiqUITests;
+			productName = CritiqUITests;
+			productReference = 8C0277962A02FB2F008D173B /* CritiqUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C0277742A02FB2E008D173B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8C02777B2A02FB2E008D173B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					8C02778B2A02FB2F008D173B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8C02777B2A02FB2E008D173B;
+					};
+					8C0277952A02FB2F008D173B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 8C02777B2A02FB2E008D173B;
+					};
+				};
+			};
+			buildConfigurationList = 8C0277772A02FB2E008D173B /* Build configuration list for PBXProject "Critiq" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C0277732A02FB2E008D173B;
+			productRefGroup = 8C02777D2A02FB2E008D173B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C02777B2A02FB2E008D173B /* Critiq */,
+				8C02778B2A02FB2F008D173B /* CritiqTests */,
+				8C0277952A02FB2F008D173B /* CritiqUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C02777A2A02FB2E008D173B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0277C22A0406CA008D173B /* Ubuntu.ttf in Resources */,
+				8C0277872A02FB2F008D173B /* Preview Assets.xcassets in Resources */,
+				8C0277842A02FB2F008D173B /* Assets.xcassets in Resources */,
+				8C0277C42A0406E1008D173B /* Poppins.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C02778A2A02FB2F008D173B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0277942A02FB2F008D173B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C0277782A02FB2E008D173B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0277D52A0BE162008D173B /* SearchView.swift in Sources */,
+				8C0277CE2A054D21008D173B /* PhoneVerificationView.swift in Sources */,
+				8C0277D72A0C4043008D173B /* TestView.swift in Sources */,
+				8C0277D12A0ADE52008D173B /* MapView.swift in Sources */,
+				8C0277822A02FB2E008D173B /* ContentView.swift in Sources */,
+				8C0277B72A03FB30008D173B /* WelcomeView.swift in Sources */,
+				8C0277C72A040814008D173B /* Primatives.swift in Sources */,
+				8C0277B92A0402C5008D173B /* LoginView.swift in Sources */,
+				8C0277CC2A046A87008D173B /* Server.swift in Sources */,
+				8C0277D32A0AE5EF008D173B /* Map.swift in Sources */,
+				8C0277802A02FB2E008D173B /* CritiqApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0277882A02FB2F008D173B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0277912A02FB2F008D173B /* CritiqTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C0277922A02FB2F008D173B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C02779D2A02FB2F008D173B /* CritiqUITestsLaunchTests.swift in Sources */,
+				8C02779B2A02FB2F008D173B /* CritiqUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C02778E2A02FB2F008D173B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C02777B2A02FB2E008D173B /* Critiq */;
+			targetProxy = 8C02778D2A02FB2F008D173B /* PBXContainerItemProxy */;
+		};
+		8C0277982A02FB2F008D173B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C02777B2A02FB2E008D173B /* Critiq */;
+			targetProxy = 8C0277972A02FB2F008D173B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C02779E2A02FB2F008D173B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C02779F2A02FB2F008D173B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C0277A12A02FB2F008D173B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Critiq/Preview Content\"";
+				DEVELOPMENT_TEAM = C3SRV5T6SP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Critiq/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Critiq needs your location to reccomend resturaunts close to you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huntersimmons.Critiq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C0277A22A02FB2F008D173B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Critiq/Preview Content\"";
+				DEVELOPMENT_TEAM = C3SRV5T6SP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Critiq/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Critiq needs your location to reccomend resturaunts close to you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huntersimmons.Critiq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C0277A42A02FB2F008D173B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3SRV5T6SP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huntersimmons.CritiqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Critiq.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Critiq";
+			};
+			name = Debug;
+		};
+		8C0277A52A02FB2F008D173B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3SRV5T6SP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huntersimmons.CritiqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Critiq.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Critiq";
+			};
+			name = Release;
+		};
+		8C0277A72A02FB2F008D173B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3SRV5T6SP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huntersimmons.CritiqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Critiq;
+			};
+			name = Debug;
+		};
+		8C0277A82A02FB2F008D173B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C3SRV5T6SP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huntersimmons.CritiqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Critiq;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C0277772A02FB2E008D173B /* Build configuration list for PBXProject "Critiq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C02779E2A02FB2F008D173B /* Debug */,
+				8C02779F2A02FB2F008D173B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0277A02A02FB2F008D173B /* Build configuration list for PBXNativeTarget "Critiq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0277A12A02FB2F008D173B /* Debug */,
+				8C0277A22A02FB2F008D173B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0277A32A02FB2F008D173B /* Build configuration list for PBXNativeTarget "CritiqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0277A42A02FB2F008D173B /* Debug */,
+				8C0277A52A02FB2F008D173B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C0277A62A02FB2F008D173B /* Build configuration list for PBXNativeTarget "CritiqUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C0277A72A02FB2F008D173B /* Debug */,
+				8C0277A82A02FB2F008D173B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C0277742A02FB2E008D173B /* Project object */;
+}
