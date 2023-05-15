@@ -14,24 +14,26 @@ struct SearchView: View {
     @EnvironmentObject var locationManager: LocationManager
     
     var body: some View {
-        NavigationStack {
             ZStack {
                 List {
                     ForEach(locationManager.searchResults, id: \.self) { searchResult in
-                        VStack(alignment: .leading) {
-                                Text(searchResult.name)
-                                    .font(.headline)
-                            Text(searchResult.address.address)
+                        NavigationLink {
+                            CompareView()
+                        } label: {
+                            VStack(alignment: .leading) {
+                                    Text(searchResult.name)
+                                        .font(.headline)
+                                Text(searchResult.address.address)
+                            }
                         }
                     }
                 }
             }
-            .navigationTitle("Add Restaurant")
+            .navigationTitle("Search")
             .searchable(text: $debounceObject.text)
             .onChange(of: debounceObject.debouncedText) { text in
                 locationManager.searchForRestaruant(searchString: text)
             }
-        }
     }
 }
 

@@ -24,7 +24,7 @@
 		8C0277D12A0ADE52008D173B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277D02A0ADE52008D173B /* MapView.swift */; };
 		8C0277D32A0AE5EF008D173B /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277D22A0AE5EF008D173B /* Map.swift */; };
 		8C0277D52A0BE162008D173B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277D42A0BE162008D173B /* SearchView.swift */; };
-		8C0277D72A0C4043008D173B /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277D62A0C4043008D173B /* TestView.swift */; };
+		8C0277D92A0EE7A4008D173B /* CompareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0277D82A0EE7A4008D173B /* CompareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +66,7 @@
 		8C0277D02A0ADE52008D173B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		8C0277D22A0AE5EF008D173B /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		8C0277D42A0BE162008D173B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		8C0277D62A0C4043008D173B /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		8C0277D82A0EE7A4008D173B /* CompareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +189,7 @@
 			children = (
 				8C0277D02A0ADE52008D173B /* MapView.swift */,
 				8C0277D42A0BE162008D173B /* SearchView.swift */,
-				8C0277D62A0C4043008D173B /* TestView.swift */,
+				8C0277D82A0EE7A4008D173B /* CompareView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -328,7 +328,7 @@
 			files = (
 				8C0277D52A0BE162008D173B /* SearchView.swift in Sources */,
 				8C0277CE2A054D21008D173B /* PhoneVerificationView.swift in Sources */,
-				8C0277D72A0C4043008D173B /* TestView.swift in Sources */,
+				8C0277D92A0EE7A4008D173B /* CompareView.swift in Sources */,
 				8C0277D12A0ADE52008D173B /* MapView.swift in Sources */,
 				8C0277822A02FB2E008D173B /* ContentView.swift in Sources */,
 				8C0277B72A03FB30008D173B /* WelcomeView.swift in Sources */,

@@ -70,7 +70,7 @@ struct MapView: View {
                         Spacer()
                         VStack {
                             NavigationLink {
-                                TestView()
+                                Text("hello")
                             } label: {
                                 Image(systemName: "menucard.fill")
                                     .font(.system(size: 20, weight: .bold))
